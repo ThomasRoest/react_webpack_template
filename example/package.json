@@ -21,12 +21,14 @@
     "file-loader": "^0.7.2",
     "less": "^1.7.5",
     "less-loader": "^0.7.7",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
     "style-loader": "^0.8.0",
     "url-loader": "^0.5.5",
     "webpack-dev-server": "^1.6.5"
   },
   "dependencies": {
-    "react": "^0.13.3",
+    "react": "^0.14.6",
     "react-router": "^0.13.3"
   }
 }

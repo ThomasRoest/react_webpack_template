@@ -2,6 +2,7 @@ var App = require('./App');
 var Home = require('./Home');
 var About = require('./About');
 var React = require('react');
+var ReactDOM = require('react-dom');
 var Router = require('react-router');
 var {DefaultRoute, Route, Routes} = Router;
 
@@ -13,5 +14,7 @@ var routes = (
 );
 
 Router.run(routes, Router.HistoryLocation, function(Handler) {
-  React.render(<Handler/>, document.body);
+  ReactDOM.render(
+    <Handler/>, document.querySelector('#main')
+    );
 });
