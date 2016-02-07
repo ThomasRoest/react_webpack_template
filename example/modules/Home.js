@@ -7,38 +7,15 @@ var Home = React.createClass({
       test_items: {}
     };
   },
-
   render: function() {
     return (
       <div>
-        <Form/>
+        <h1>React template</h1>
       </div>
     );
   }
 });
 
-
-var Form = React.createClass({
-  onButtonClick : function() {
-    event.preventDefault();
-    var value = this.refs.formInput.value;
-
-    // var value = this.refs.testvalue.value;
-    // console.log(this.refs.bullshit.value);
-
-    // console.log(value);
-    // event.preventDefault();
-  },
-  render : function(){
-    return (
-      <form action="">
-        <label htmlFor="">label</label>
-        <input type="text" ref="formInput"/>
-        <button type="submit" onClick={this.onButtonClick}>submit</button>
-      </form>
-    );
-  }
-});
 
 module.exports = Home;
 
