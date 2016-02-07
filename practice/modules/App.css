@@ -1,0 +1,18 @@
+body {
+  font-family: 'Arial';
+}
+
+form input[type="text"] {
+  padding: 10px;
+  background-color: #fdfdfd;
+  margin: 10px;
+  border-radius: 3px;
+}
+
+form button {
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 3px; 
+  background: blue;
+  color: #fff;
+}
